@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --secondary: #6366f1;
+            --bg: #f4f6fb;
+            --card: #ffffff;
+            --text: #1f2937;
+            --muted: #6b7280;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f8fafc);
+            color: var(--text);
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            color: var(--primary);
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            border-left: 5px solid var(--primary);
+            padding-left: 10px;
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: var(--secondary);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+            background: var(--card);
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: var(--muted);
+        }
+
+        /* Skills layout */
+        #skills ul li {
+            background: #eef2ff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Portfolio: Satyam Kumar</h1>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Technology in Artificial Intelligence and Machine Learning</strong><br>
+                College Of Engineering Roorkee, 2025–2029<br>
+                CGPA: 8.5/10<br>
+                Relevant Coursework: Emerging in Technology, Machine Learning, Web Development, Operating System<br>
+                
+            </li>
+            <li>
+                <strong>Online Certification in Data Science</strong><br>
+                Coursera (Johns Hopkins University), 2023<br>
+                Skills: Python, R, Statistical Analysis.
+            </li>
+            <li>
+                <strong>High School </strong><br>
+                    2022-2023<br>
+                St Mary's School Haridwar.
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>SUV Car Purchasing Prediction  </strong> (2025)<br>
+                Developed an end-to-end machine learning classification system to predict SUV vs non-SUV purchases based on user demographics.<br>
+                Technologies: Python, Streamlit, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+ML Concepts: Logistic Regression, Feature Scaling, Train-Test Split, Model Evaluation   
+                <br>
+                <a href="#">GitHub Repository</a>
+            </li>
+            <li>
+                <strong>Tour and Travels Web Site</strong> (2025)<br>
+                Developed a responsive website for a travel agency using HTML, CSS, and JavaScript.<br>
+                <a href="#">Demo Video</a>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <h3>Technical</h3>
+        <ul>
+            <li>Python, JavaScript, Java, C++</li>
+            
+            <li>SQL, Pandas, Tableau</li>
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Clear communication & presentations</li>
+            <li>Problem-solving & debugging</li>
+            <li>Agile teamwork</li>
+        </ul>
+    </section>
+
+    <section id="additional">
+        <h2>Additional</h2>
+        <p><strong>Languages:</strong> English (Fluent), Hindi (Native)</p>
+        <p><strong>Contact:</strong> seayam960@gmail.com | LinkedIn | Portfolio Website</p>
+    </section>
+
+</body>
+</html>
